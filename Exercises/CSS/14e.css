@@ -1,0 +1,78 @@
+div{
+  font-family: Arial;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+
+}
+
+.d-14{
+  position: fixed;
+  
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+}
+
+.header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.profile{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.image{
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.name{
+  font-weight: bold;
+}
+
+.button{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.add{
+  font-weight: bold;
+  color: white;
+  background-color:rgb(61, 61, 255);
+  border-radius: 5px;
+  border: none;
+  margin-right: 10px;
+  
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.message{
+  font-weight: bold;
+  background-color:rgb(197, 197, 197);
+  border-radius: 5px;
+  border: none;
+  margin-right: 8px;
+  
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
